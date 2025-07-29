@@ -58,10 +58,14 @@ export async function generateStaticParams(): Promise<{ id: string }[]> {
             }));
         }
 
-        return [];
+        return [{
+            id: 'null'
+        }];
     } catch (err) {
         console.error('Ошибка при получения результатов исследований:', err);
-        return [];
+        return [{
+            id: 'null'
+        }];
     }
 }
 
