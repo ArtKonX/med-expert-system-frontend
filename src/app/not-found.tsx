@@ -1,6 +1,8 @@
 import NotFoundPage from "@/pages-components/NotFoundPage/NotFoundPage"
 import { Metadata } from "next";
 
+import React from 'react';
+
 export const metadata: Metadata = {
   title: 'Ошибка 404',
   description: 'Несуществующая страница',

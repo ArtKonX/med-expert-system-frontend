@@ -1,5 +1,7 @@
 'use client'
 
+import React from 'react';
+
 import { ChangeEvent, FormEvent } from "react";
 import CustomButton from "../ui/CustomButton/CustomButton";
 import CustomInput from "../ui/CustomInput/CustomInput";

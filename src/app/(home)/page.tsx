@@ -1,3 +1,5 @@
+import React from 'react';
+
 import HomePage from "@/pages-components/HomePage/HomePage"
 import { Metadata } from "next";
 

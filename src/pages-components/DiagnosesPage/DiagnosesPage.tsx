@@ -1,5 +1,7 @@
 'use client'
 
+import React from 'react';
+
 import Loader from "@/components/ui/Loader/Loader"
 import { useGetResultsQuery, useRemoveResultMutation } from "@/redux/services/resultsApi"
 import Link from "next/link"

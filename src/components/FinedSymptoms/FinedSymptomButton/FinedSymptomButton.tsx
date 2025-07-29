@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface FinedSymptomButtonProps {
     onAction: (symptom: string) => void,
     symptom: string

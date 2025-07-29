@@ -1,5 +1,7 @@
 'use client'
 
+import React from 'react';
+
 import FinedSymptoms from "@/components/FinedSymptoms/FinedSymptoms";
 import InfoDiseaseForm from "@/components/InfoDiseaseForm/InfoDiseaseForm";
 import SelectedSymptoms from "@/components/SelectedSymptoms/SelectedSymptoms";

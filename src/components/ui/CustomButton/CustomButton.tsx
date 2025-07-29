@@ -1,3 +1,5 @@
+import React from 'react';
+
 type TypeButton = 'button' | 'reset' | 'submit';
 
 interface CustomButtonProps {

@@ -1,5 +1,7 @@
 'use client'
 
+import React from 'react';
+
 import CustomLink from "@/components/ui/CustomLink/CustomLink"
 
 const NotFoundPage = () => {

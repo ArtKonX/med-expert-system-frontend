@@ -1,5 +1,7 @@
 'use client'
 
+import React from 'react';
+
 import InfoDisease from "@/components/InfoDiseaseForm/InfoDisease/InfoDisease";
 import Loader from "@/components/ui/Loader/Loader";
 import { useGetResultQuery } from "@/redux/services/resultsApi";

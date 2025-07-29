@@ -1,5 +1,7 @@
 import { ChangeEvent } from "react"
 
+import React from 'react';
+
 interface CustomInput {
     opacityPlaceholder: number,
     symptomPlaceholder: string,

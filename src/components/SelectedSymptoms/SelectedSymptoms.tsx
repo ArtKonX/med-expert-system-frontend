@@ -1,3 +1,5 @@
+import React from 'react';
+
 import SelectedSymptomRemoveButton from "./SelectedSymptomButton/SelectedSymptomButton"
 import styles from './SelectedSymptoms.module.scss';
 

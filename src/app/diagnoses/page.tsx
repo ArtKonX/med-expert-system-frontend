@@ -1,3 +1,5 @@
+import React from 'react';
+
 import DiagnosesPage from "@/pages-components/DiagnosesPage/DiagnosesPage"
 import { Metadata } from "next";
 

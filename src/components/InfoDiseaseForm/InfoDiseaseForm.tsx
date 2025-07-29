@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { FormEvent } from "react"
 import CustomButton from "../ui/CustomButton/CustomButton"
 import InfoDisease from "./InfoDisease/InfoDisease"
