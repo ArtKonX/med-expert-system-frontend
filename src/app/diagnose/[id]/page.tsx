@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     description: 'Созраненный результат исследования',
 };
 
+export const revalidate = 0;
+
 export const dynamicParams = false
 
 const Diagnose = async (
