@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description: 'Созраненный результат исследования',
 };
 
-export const revalidate = 60;
+export const revalidate = 0;
 
 export async function generateStaticParams(): Promise<{ id: string }[]> {
 
