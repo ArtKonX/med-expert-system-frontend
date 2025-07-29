@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/ArtKonX/med-expert-system-frontend/actions/workflows/web.yml/badge.svg)
 
-[Ссылка на Github Pages](https://artkonx.github.io/med-expert-system-frontend/)
+[Ссылка на Демо Vercel](https://med-expert-system-frontend.vercel.app/)
 
 ## ❗Важное уведомление о работе системы
 #### Данная экспертная система является вспомогательным инструментом для диагностики заболеваний и не может заменить профессиональную медицинскую консультацию.
