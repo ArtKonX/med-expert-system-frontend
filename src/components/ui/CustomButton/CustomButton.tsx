@@ -13,7 +13,7 @@ const CustomButton = (
     { text, type, onAction, disabled }: CustomButtonProps) => {
 
     return (
-        <button className="max-sm:p-0 max-sm:w-[120px] bg-blue-100 dark:bg-blue-900 dark:text-white
+        <button className="max-sm:p-2 max-sm:w-[120px] bg-blue-100 dark:bg-blue-900 dark:text-white
          py-3 px-4 ml-2 font-bold text-[15px]
                 rounded-2xl disabled:opacity-65 disabled:cursor-auto
                 cursor-pointer hover:opacity-65 duration-500

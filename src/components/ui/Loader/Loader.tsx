@@ -24,7 +24,7 @@ const Loader = (
         <div className='bg-black/50 absolute w-full h-full
         top-0 left-0 flex items-center
         justify-center z-50'>
-            <span className="text-blue-100 text-4xl font-bold animate-pulse">
+            <span className="max-sm:text-2xl text-blue-100 text-4xl font-bold animate-pulse">
                 {loadingText}
             </span>
         </div>

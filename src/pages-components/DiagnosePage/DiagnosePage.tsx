@@ -8,7 +8,6 @@ import { useGetResultQuery } from "@/redux/services/resultsApi";
 
 import dataLoading from '../../data/data-loading.json';
 import CustomLink from "@/components/ui/CustomLink/CustomLink";
-import NotFoundPage from '../NotFoundPage/NotFoundPage';
 
 const DiagnosePage = (
     { id }: { id: string }) => {
@@ -16,8 +15,6 @@ const DiagnosePage = (
     const { data: resultData, isLoading: isResultLoading, error: resultError } = useGetResultQuery({ id });
 
     if (isResultLoading || resultError) return (<Loader dataLoading={dataLoading} />)
-
-    if (id === 'null') return <NotFoundPage />
 
     return (
         <div className="w-full h-full py-5 px-8">

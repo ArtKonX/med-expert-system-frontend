@@ -98,11 +98,13 @@ const HomePage = () => {
 
             setTimeout(() => { setOpacityPlaceholder(0) }, 3500)
         }
+
+        return () => setOpacityPlaceholder(0)
     }, [indxSymptom, setIndxSymptom])
 
     const onChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { value } = e.target;
-        setSymptomQuery(value)
+        setSymptomQuery(value.charAt(0).toUpperCase() + value.slice(1))
     }
 
     const onRemoveSymptom = (indx: number) => {
@@ -201,9 +203,7 @@ const HomePage = () => {
                     </div>
                 )}
                 <div className={`${(selectedSymptoms?.length || symptomQuery) &&
-                    'bg-black/50 absolute w-full h-full top-0 left-0'}`}>
-
-                </div>
+                    'bg-black/50 absolute w-full h-full top-0 left-0'}`} />
                 {selectedSymptoms &&
                     (<div>
                         <SelectedSymptoms selectedSymptoms={selectedSymptoms}
